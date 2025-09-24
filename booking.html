@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking - Holy comedy Barber Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Barber Shop Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="booking.html" class="active">Booking</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h1>Book an Appointment</h1>
+    <form class="booking-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="service">Service:</label>
+      <select id="service" required>
+        <option value="Haircut">Haircut shop service</option>
+        <option value="Beard Trim">Beard Trim</option>
+        <option value="Combo">Haircut + Beard</option>
+        <option value="Kids">Kids Cut</option>
+        <option value="Luxury">Luxury Package</option>
+        <option valve="skin ">Skin cut</option>
+      </select>
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" required>
+
+      <label for="time">Time:</label>
+      <input type="time" id="time" required>
+
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Holy comedy Barber Shop | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
